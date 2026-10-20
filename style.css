@@ -1,0 +1,45 @@
+table,
+tr,
+th,
+td {
+  border: 3px solid violet;
+  border-collapse: collapse;
+
+  text-align: center;
+}
+
+table {
+  width: 100%;
+  margin: 80px;
+  /* width: 500px; */
+}
+
+td {
+  background: rgba(128, 128, 0, 0.406);
+  height: 80px;
+  vertical-align: top;
+}
+
+th {
+  width: 450px;
+  height: 60px;
+  color: aqua;
+  background: lavender;
+}
+
+th:hover {
+  background-color: blue;
+}
+
+td:hover {
+  background: red;
+  font-size: 40px;
+  color: rgb(12, 24, 1);
+}
+
+
+div {
+  width: 450px;
+  overflow: hidden;
+  overflow-x: auto;
+}
